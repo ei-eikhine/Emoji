@@ -25,10 +25,10 @@ function App() {
   return(
     <div className="container">
       <h1 id={greeting}>Hello, World</h1>
-      {displayAction && <p>I am writing JSX</p>}
+      {displayAction && <p>I am writing </p>}
       <Instructions />
       <Instructions />
-      <Instructions />
+      <Instructions />ei-ei
       <ul>
         {
           emojis.map(emoji => (
@@ -96,6 +96,12 @@ export default App;
 // class App extends React.Component{
 //   state = {
 //     items: [
+
+
+
+
+
+
 // //         { id: 1, name: 'Apple', price: 0.99 },
 // //         { id: 2, name: 'Orange', price: 0.89 },
 // //   ] }
